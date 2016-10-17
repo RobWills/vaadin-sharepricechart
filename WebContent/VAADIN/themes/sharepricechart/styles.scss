@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "sharepricechart.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in sharepricechart.scss */
+.sharepricechart {
+  @include addons;
+  @include sharepricechart;
+}
